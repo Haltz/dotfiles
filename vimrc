@@ -1,4 +1,4 @@
-" Use  Vim-plugin as plugin manager of vim.
+"Use  Vim-plugin as plugin manager of vim.
 " Plug 'Valloric/YouCompleteMe'
 " Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
@@ -14,6 +14,8 @@ Plug 'junegunn/fzf'
 Plug 'Valloric/YouCompleteMe'
 
 Plug 'preservim/nerdtree'
+
+Plug 'rakr/vim-one'
 
 call plug#end()
 
@@ -49,3 +51,15 @@ set autoread
 set listchars=tab:»·,trail:·
 set list
 set wildmenu
+
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
+
+let g:ycm_autoclose_preview_window_after_insertion = 1
+let g:ycm_autoclose_preview_window_after_completion = 1
+
+let g:airline_theme='one'
+colorscheme one
+set background=dark
