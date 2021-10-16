@@ -15,7 +15,6 @@ Plug 'Valloric/YouCompleteMe'
 
 Plug 'preservim/nerdtree'
 
-
 call plug#end()
 
 set noerrorbells
