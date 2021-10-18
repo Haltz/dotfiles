@@ -17,6 +17,7 @@ Plug 'preservim/nerdtree'
 
 Plug 'rakr/vim-one'
 
+Plug 'motemen/git-vim'
 call plug#end()
 
 set noerrorbells
@@ -62,4 +63,4 @@ let g:ycm_autoclose_preview_window_after_completion = 1
 
 let g:airline_theme='one'
 colorscheme one
-set background=dark
+set background=light " Set background light because dark theme will affect code completion
