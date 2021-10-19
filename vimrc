@@ -1,5 +1,4 @@
 "Use  Vim-plugin as plugin manager of vim.
-" Plug 'Valloric/YouCompleteMe'
 " Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
 " - Avoid using standard Vim directory names like 'plugin'
@@ -62,5 +61,10 @@ let g:ycm_autoclose_preview_window_after_insertion = 1
 let g:ycm_autoclose_preview_window_after_completion = 1
 
 let g:airline_theme='one'
+
 colorscheme one
-set background=light " Set background light because dark theme will affect code completion
+set background=dark " Set background light because dark theme will affect code completion
+
+hi CursorLine cterm=none ctermbg=DarkMagenta ctermfg=White
+hi Pmenu ctermfg=56 ctermbg=255
+
