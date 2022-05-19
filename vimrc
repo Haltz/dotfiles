@@ -65,6 +65,6 @@ let g:airline_theme='one'
 colorscheme one
 set background=dark " Set background light because dark theme will affect code completion
 
-hi CursorLine cterm=none ctermbg=DarkMagenta ctermfg=White
+hi CursorLine cterm=none ctermbg=DarkCyan ctermfg=White
 hi Pmenu ctermfg=56 ctermbg=255
 
