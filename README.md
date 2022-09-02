@@ -1,2 +1,2 @@
 # conf
-Frequent useful configuration files.
+My configurations
